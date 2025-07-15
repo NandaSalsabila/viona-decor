@@ -1,0 +1,81 @@
+/* Font */
+@import url('https://fonts.googleapis.com/css2?family=DM+Sans:ital,opsz,wght@0,9..40,100..1000;1,9..40,100..1000&family=Playfair+Display:ital,wght@0,400..900;1,400..900&display=swap');
+
+/* Utilities */
+*{
+    font-family: playfair display;
+}
+
+body {
+  background-color: #FFFCF0;
+}
+
+.judul {
+    color: #D1B470; /* Warna teks untuk heading */
+}
+
+.deskripsi {
+    color: #35514B; /* Warna teks untuk paragraf */
+}
+
+/* Navbar */
+
+.navbar-brand img {
+    width: 80px;
+}
+
+.custom-navbar .nav-link {
+  font-size: 1.1rem; 
+  font-weight: 500;
+}
+
+/* Sosial Media */
+.social-link {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-color: #ffffff;
+  color: #000000;
+  width: 45px;
+  height: 45px;
+  border-radius: 50%;
+  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1);
+  text-decoration: none;
+  transition: transform 0.3s ease;
+  border: 1px solid #e0e0e0;
+}
+
+.social-link:hover {
+  transform: scale(1.1);
+  background-color: #f9f9f9;
+  color: #000000;
+}
+
+.social-link i {
+  font-size: 20px;
+}
+
+/* Hero */
+.btn-booking {
+    background-color: #E3CC95 ;
+    color: #35514B;
+}
+
+.btn-booking:hover {
+    background-color: #b9a16a;
+    color: white;
+}
+
+/* CTA */
+.cta .card {
+    background-image: url(./assets/bg-cta.png);
+    background-size: cover;
+    background-position: center;
+    border: 1px solid #cdcdcd;
+    border-radius: 10px;
+    height: 150px;
+}
+
+.cta .card-body {
+    height: 100%;
+}

@@ -1,0 +1,191 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Viona Dekor | Kepoin Sekarang</title>
+
+  <!-- Menampilkan logo di tab browser -->
+  <link rel="shortcut icon" href="./assets/logo-shortcut.png" type="image/x-icon" />
+
+  <!-- Bootstrap -->
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.7/dist/css/bootstrap.min.css" />
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.13.1/font/bootstrap-icons.min.css" />
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.7/dist/js/bootstrap.bundle.min.js"></script>
+
+  <!-- utilities -->
+  <link rel="stylesheet" href="./style.css" />
+  <script src="./script.js"></script>
+  <script src="https://cdn.jsdelivr.net/npm/sweetalert2@11"></script>
+</head>
+
+<body>
+  <!-- Navbar -->
+  <nav class="navbar d-none d-lg-block">
+    <div class="container">
+      <a class="navbar-brand" href="./index.html"><img src="./assets/logo-final.png" alt="" /></a>
+      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavDropdown"
+        aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse" id="navbarNavDropdown">
+        <ul class="navbar-nav mx-auto custom-navbar">
+          <li class="nav-item mx-2">
+            <a class="nav-link" aria-current="page" href="./home.html">Home</a>
+          </li>
+          <li class="nav-item mx-2 dropdown">
+            <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown"
+              aria-expanded="false">Our Packages</a>
+            <ul class="dropdown-menu">
+              <li>
+                <a class="dropdown-item" href="./wedding.html">Wedding</a>
+              </li>
+              <li>
+                <a class="dropdown-item" href="./birthday.html">Birthday</a>
+              </li>
+              <li>
+                <a class="dropdown-item" href="./bisnisevent.html">Business Event</a>
+              </li>
+              <li>
+                <a class="dropdown-item" href="./promnight.html">Prom Night</a>
+              </li>
+              <li>
+                <a class="dropdown-item" href="./genderreveal.html">Gender Reveal</a>
+              </li>
+            </ul>
+          </li>
+          <li class="nav-item mx-2">
+            <a class="nav-link" href="./galeri.html">Galery</a>
+          </li>
+          <li class="nav-item mx-2">
+            <a class="nav-link" href="./tentangkami.html">About Us</a>
+          </li>
+        </ul>
+      </div>
+      <div class="icon-sosmed d-flex">
+        <a href="#" class="social-link"><i class="bi bi-whatsapp"></i></a>
+        <a href="#" class="social-link"><i class="bi bi-instagram"></i></a>
+        <a href="#" class="social-link"><i class="bi bi-tiktok"></i></a>
+      </div>
+    </div>
+  </nav>
+
+  <!-- Hero1 -->
+  <section class="hero mt-2 d-none d-lg-block">
+    <div class="container">
+      <div class="row d-flex align-items-center">
+        <div class="col-lg-5">
+          <img src="./assets/img-hero.png" alt="" width="100%" />
+        </div>
+        <div class="col-lg-7">
+          <h1 class="judul">Dekorasi Cantik Untuk Moment Specialmu</h1>
+          <h6 class="deskripsi">Kami percaya bahwa setiap detail punya cerita.</h6>
+          <h6 class="deskripsi">
+            Viona Decor siap hadirkan suasana yang cantik, elegan, dan penuh
+            kesan untuk acaramu.
+          </h6>
+          <button type="button" class="btn btn-booking px-4">
+            Booking Sekarang Juga
+          </button>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Hero2 -->
+  <section class="hero mt-5">
+    <div class="container">
+      <div class="row d-flex align-items-center">
+        <div class="col-lg-6">
+          <h3 class="judul">Percayakan momen terindahmu pada Viona Dekor.</h3>
+          <h6 class="deskripsi">
+            Dengan nuansa artistik dan detail memukau, untuk acara istimewa
+            yang tak terlupakan
+          </h6>
+        </div>
+        <div class="col-lg-6">
+          <img src="./assets/img-hero2.png" alt="" width="100%" />
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- CTA -->
+  <section class="cta mt-5">
+    <div class="container">
+      <div class="row">
+        <div class="col">
+          <div class="card">
+            <div class="card-body d-flex align-items-center justify-content-center text-center">
+              <div class="content">
+                <h3 class="card-title">Wujudkan Dekorasi Impianmu</h3>
+                <p class="card-text">Bersama Viona Dekor</p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Paket -->
+  <section class="paket mt-5">
+    <div class="container text-center">
+      <h2>Siap Menghias Berbagai Jenis Acaramu</h2>
+      <p>Wujudkan suasana yang kamu impikan untuk setiap momen.</p>
+      <div class="row">
+        <div class="col-lg-4">
+          <div class="card border-0 mt-3">
+            <img src="./assets/img-wedding.png" alt="" class="card-img-top rounded-3" />
+            <div class="card-body">
+              <h5 class="card-title">Wedding Packages</h5>
+            </div>
+          </div>
+        </div>
+
+        <div class="col-lg-4">
+          <div class="card border-0 mt-3">
+            <img src="./assets/img-birthday.png" alt="" class="card-img-top rounded-3" />
+            <div class="card-body">
+              <h5 class="card-title">Birthday Packages</h5>
+            </div>
+          </div>
+        </div>
+
+        <div class="col-lg-4">
+          <div class="card border-0 mt-3">
+            <img src="./assets/img-bisnis.png" alt="" class="card-img-top rounded-3" />
+            <div class="card-body">
+              <h5 class="card-title">Business Event Packages</h5>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <div class="row">
+        <div class="col-lg-4">
+          <div class="card border-0 mt-3">
+            <img src="./assets/img-promnight.png" alt="" class="card-img-top rounded-3" />
+            <div class="card-body">
+              <h5 class="card-title">Prom Night Packages</h5>
+            </div>
+          </div>
+        </div>
+
+        <div class="col-lg-4">
+          <div class="card border-0 mt-3">
+            <img src="./assets/img-gender.png" alt="" class="card-img-top rounded-3" />
+            <div class="card-body">
+              <h5 class="card-title">Gender Reveal Packages</h5>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+  <!-- Ulasan -->
+  <!-- Footer -->
+</body>
+
+</html>
