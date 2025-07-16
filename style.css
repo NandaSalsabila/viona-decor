@@ -79,3 +79,8 @@ body {
 .cta .card-body {
     height: 100%;
 }
+
+/* Card paket */
+.card {
+  background-color: #FFFCF0;
+}
