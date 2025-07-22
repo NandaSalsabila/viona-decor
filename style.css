@@ -80,8 +80,12 @@ body {
 }
 
 /* Card paket */
-.card {
+.paket .card {
   background-color: #FFFCF0;
+}
+
+.paket .card:hover {
+    transform: scale(1.02); /* Opsional, efek zoom sedikit saat hover */
 }
 
 /* ulasan */
@@ -150,14 +154,40 @@ footer img {
 /* promosi5*/
 
 /* card paket */
-.card {
-    background-color: #fff; /* Atau warna soft lain sesuai tema */
-    box-shadow: 0 4px 20px rgba(0, 0, 0, 0.1); /* Memberikan efek bayangan halus */
-    border-radius: 12px; /* Opsional untuk sudut lebih membulat */
+.wedding .card {
+    background-color: #fff; 
+    box-shadow: 0 4px 20px rgba(0, 0, 0, 0.1);
+    border-radius: 12px; 
     transition: transform 0.3s ease;
 }
 
-.card:hover {
-    transform: scale(1.02); /* Opsional, efek zoom sedikit saat hover */
+.wedding .card:hover {
+    transform: scale(1.02); 
 }
 
+/* panah menuju detail */
+.card-body {
+    position: relative;
+}
+
+.arrow-btn {
+    position: absolute;
+    right: 15px;
+    bottom: 15px;
+    background-color: #35514B; 
+    color: #fff;
+    width: 36px;
+    height: 36px;
+    border-radius: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 16px;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+.arrow-btn:hover {
+    background-color: #112A25; 
+}
