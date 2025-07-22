@@ -148,3 +148,16 @@ footer img {
 /* promosi3*/
 /* promosi4*/
 /* promosi5*/
+
+/* card paket */
+.card {
+    background-color: #fff; /* Atau warna soft lain sesuai tema */
+    box-shadow: 0 4px 20px rgba(0, 0, 0, 0.1); /* Memberikan efek bayangan halus */
+    border-radius: 12px; /* Opsional untuk sudut lebih membulat */
+    transition: transform 0.3s ease;
+}
+
+.card:hover {
+    transform: scale(1.02); /* Opsional, efek zoom sedikit saat hover */
+}
+
