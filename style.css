@@ -19,9 +19,8 @@ body {
 }
 
 /* Navbar */
-
 .navbar-brand img {
-    width: 80px;
+    width: 110px;
 }
 
 .custom-navbar .nav-link {
@@ -95,7 +94,7 @@ body {
     display: block;
 }
 
-/* overlay ungu */
+/* overlay abu gelap */
 .overlay::after {
     content: '';
     position: absolute;
@@ -129,5 +128,20 @@ footer {
 }
 
 footer img {
-    width: 120px;
+    width: 160px;
 }
+
+/* promosi1 */
+.promosi1 {
+    background-image: url(./assets/promosi1.png);
+    background-size: cover;
+    background-position: center;
+    border: 1px solid #cdcdcd;
+    border-radius: 10px;
+    height: 150px;
+}
+
+/* promosi2*/
+/* promosi3*/
+/* promosi4*/
+/* promosi5*/
