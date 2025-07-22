@@ -132,13 +132,16 @@ footer img {
 }
 
 /* promosi1 */
-.promosi1 {
+.promosi1 .poster {
     background-image: url(./assets/promosi1.png);
     background-size: cover;
     background-position: center;
     border: 1px solid #cdcdcd;
-    border-radius: 10px;
-    height: 150px;
+    height: 230px;
+}
+
+.promosi1 .poster-body {
+    height: 100%;
 }
 
 /* promosi2*/
