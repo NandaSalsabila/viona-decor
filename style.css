@@ -88,7 +88,6 @@ body {
 
 .paket .card:hover {
     transform: scale(1.02);
-    /* Opsional, efek zoom sedikit saat hover */
 }
 
 /* ulasan */
@@ -150,11 +149,6 @@ footer img {
 .promosi1 .poster-body {
     height: 100%;
 }
-
-/* promosi2*/
-/* promosi3*/
-/* promosi4*/
-/* promosi5*/
 
 /* card paket */
 .wedding .card {
@@ -272,4 +266,173 @@ footer img {
     width: 100%;
     border-radius: 10px;
     box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+}
+
+/* detail wedding */
+.banner {
+  background-image: url('./assets/benner.png'); 
+  background-size: cover;
+  background-position: center;
+  position: relative;
+  height: 600px;
+  color: #fff;
+  font-family: 'Playfair Display', serif;
+}
+
+.banner-overlay {
+  background-color: rgba(0, 0, 0, 0.5);
+  width: 100%;
+  height: 100%;
+  display: flex;
+  align-items: center;
+}
+
+.container.text {
+  max-width: 700px;
+  padding-left: 0px;
+}
+
+.banner h2 {
+  font-size: 38px;
+  font-weight: bold;
+  margin-bottom: 10px;
+}
+
+.subtitle {
+  font-size: 18px;
+  margin-bottom: 5px;
+  font-style: italic;
+}
+
+.price-text {
+  font-size: 16px;
+  margin-top: 20px;
+}
+
+.price {
+  font-size: 28px;
+  font-weight: 600;
+}
+
+.buttons {
+  margin-top: 30px;
+}
+
+.btn {
+  text-decoration: none;
+  padding: 12px 25px;
+  border-radius: 30px;
+  font-weight: bold;
+  margin-right: 15px;
+  transition: all 0.3s ease;
+}
+
+.btn-outline {
+  border: 2px solid white;
+  background-color: transparent;
+  color: white;
+}
+
+.btn-outline:hover {
+  background-color: white;
+  color: black;
+}
+
+.btn-filled {
+  background-color: #2b4f4f;
+  color: white;
+}
+
+.btn-filled:hover {
+  background-color: #1c3636;
+}
+
+/* dcor inspirasi */
+.inspirasi .card {
+    background-color: #FFFCF0;
+}
+
+/* detail isi paket */
+.package-section {
+  padding: 40px 20px;
+}
+
+.package-section .container {
+  max-width: 1100px;
+  margin: 0 auto;
+}
+
+.package-section .title {
+  text-align: center;
+  font-size: 2rem;
+  color: #b7954c;
+  margin-bottom: 30px;
+  font-weight: bold;
+}
+
+.package-section .content {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 30px;
+  justify-content: center;
+}
+
+.package-section.image img {
+  width: 100%;
+  max-width: 400px;
+  border-radius: 10px;
+  box-shadow: 0 4px 10px rgba(0,0,0,0.1);
+}
+
+.details {
+  flex: 1;
+  min-width: 300px;
+}
+
+.details ul {
+  list-style: disc;
+  padding-left: 20px;
+  margin-bottom: 20px;
+}
+
+.details li {
+  margin-bottom: 8px;
+  line-height: 1.6;
+}
+
+.bonus {
+  background-color: #fff3f3;
+  border-left: 5px solid red;
+  padding: 10px 15px;
+  font-weight: 500;
+  border-radius: 6px;
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  margin-bottom: 20px;
+}
+
+.badge {
+  background-color: red;
+  color: white;
+  font-weight: bold;
+  padding: 3px 10px;
+  border-radius: 5px;
+  font-size: 12px;
+}
+
+.package-section .cta button {
+  background-color: #b7954c;
+  color: white;
+  padding: 12px 25px;
+  border: none;
+  font-size: 16px;
+  border-radius: 25px;
+  cursor: pointer;
+  box-shadow: 0 4px 10px rgba(0,0,0,0.1);
+  transition: background 0.3s ease;
+}
+
+.package-section .cta button:hover {
+  background-color: #9a7b39;
 }

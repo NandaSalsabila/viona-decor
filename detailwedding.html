@@ -1,0 +1,209 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Viona Dekor | Kepoin Sekarang</title>
+
+    <!-- Menampilkan logo di tab browser -->
+    <link rel="shortcut icon" href="./assets/logo_shortcut.png" type="image/x-icon" />
+
+    <!-- Bootstrap -->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.7/dist/css/bootstrap.min.css" />
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.13.1/font/bootstrap-icons.min.css" />
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.7/dist/js/bootstrap.bundle.min.js"></script>
+
+    <!-- utilities -->
+    <link rel="stylesheet" href="./style.css" />
+    <script src="./script.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/sweetalert2@11"></script>
+</head>
+
+<body>
+    <!-- Navbar -->
+    <nav class="navbar navbar-expand-lg">
+        <div class="container">
+            <a class="navbar-brand" href="./index.html"><img src="./assets/logo_viona.png" alt=""></a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavDropdown"
+                aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarNavDropdown">
+                <ul class="navbar-nav mx-auto custom-navbar">
+                    <li class="nav-item mx-2">
+                        <a class="nav-link" aria-current="page" href="./index.html">Home</a>
+                    </li>
+                    <li class="nav-item mx-2 dropdown">
+                        <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown"
+                            aria-expanded="false">Our Packages</a>
+                        <ul class="dropdown-menu">
+                            <li>
+                                <a class="dropdown-item" href="./wedding.html">Wedding</a>
+                            </li>
+                            <li>
+                                <a class="dropdown-item" href="./birthday.html">Birthday</a>
+                            </li>
+                            <li>
+                                <a class="dropdown-item" href="./bisnisevent.html">Business Event</a>
+                            </li>
+                            <li>
+                                <a class="dropdown-item" href="./promnight.html">Prom Night</a>
+                            </li>
+                            <li>
+                                <a class="dropdown-item" href="./genderreveal.html">Gender Reveal</a>
+                            </li>
+                        </ul>
+                    </li>
+                    <li class="nav-item mx-2">
+                        <a class="nav-link" href="./galeri.html">Galery</a>
+                    </li>
+                    <li class="nav-item mx-2">
+                        <a class="nav-link" href="./tentangkami.html">About Us</a>
+                    </li>
+                </ul>
+            </div>
+            <div class="icon-sosmed d-flex">
+                <a href="#" class="social-link"><i class="bi bi-whatsapp"></i></a>
+                <a href="#" class="social-link"><i class="bi bi-instagram"></i></a>
+                <a href="#" class="social-link"><i class="bi bi-tiktok"></i></a>
+            </div>
+        </div>
+    </nav>
+
+    <!-- Banner -->
+    <section class="banner">
+        <div class="banner-overlay">
+            <div class="container text">
+                <h2>Platinum Packages Wedding</h2>
+                <p class="subtitle">Modern Luxury</p>
+                <p class="price-text">Start From</p>
+                <p class="price">Rp. 35.000.000</p>
+
+                <div class="buttons">
+                    <a href="#" class="btn btn-outline">
+                        <i class="fa fa-phone"></i> Hubungi Kami
+                    </a>
+                    <a href="./formbooking.html" class="btn btn-filled">Pesan Sekarang</a>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- inspirasi dekor -->
+    <section class="inspirasi mt-5">
+        <div class="container text-center">
+            <h2 class="judul">Decor Inspiration</h2>
+            <div class="row">
+                <div class="col-lg-4">
+                    <div class="card border-0 mt-3">
+                        <img src="./assets/galeriwedding1.png" alt="" class="card-img-top rounded-3" />
+                    </div>
+                </div>
+                <div class="col-lg-4">
+                    <div class="card border-0 mt-3">
+                        <img src="./assets/galeriwedding2.png" alt="" class="card-img-top rounded-3" />
+                    </div>
+                </div>
+                <div class="col-lg-4">
+                    <div class="card border-0 mt-3">
+                        <img src="./assets/galeriwedding3.png" alt="" class="card-img-top rounded-3" />
+                    </div>
+                </div>
+            </div>
+
+            <div class="row d-flex justify-content-center">
+                <div class="col-lg-4">
+                    <div class="card border-0 mt-3">
+                        <img src="./assets/galeriwedding4.png" alt="" class="card-img-top rounded-3" />
+                    </div>
+                </div>
+                <div class="col-lg-4">
+                    <div class="card border-0 mt-3">
+                        <img src="./assets/galeriwedding5.png" alt="" class="card-img-top rounded-3" />
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- isi paket -->
+    <div class="package-section mt-5 my-4">
+        <div class="row align-items-start">
+            <!-- Gambar di sebelah kiri -->
+            <div class="col-12 col-md-4">
+                <img src="./assets/isipaket.png" class="img-fluid rounded shadow-sm" alt="Dekorasi" />
+            </div>
+
+            <!-- Detail di sebelah kanan -->
+            <div class="col-12 col-md-8">
+                <h2 class="text-warning fw-bold mb-3">Detail Package</h2>
+                <ul>
+                    <li>Backdrop pelaminan full bunga segar premium</li>
+                    <li>Mini garden 3 sisi (kiri, kanan, depan) dengan lighting artistik</li>
+                    <li>Pelaminan gebyok/custom modern eksklusif</li>
+                    <li>5 Standing flower aisle (bunga segar)</li>
+                    <li>2 Gerbang bunga utama (entrance & pelaminan)</li>
+                    <li>Karpet jalan + pencahayaan spot beam</li>
+                    <li>Dekorasi meja tamu + frame + guest book area</li>
+                    <li>Dekorasi photobooth mewah (tema disesuaikan)</li>
+                    <li>Kursi pelaminan + bunga dudukan</li>
+                    <li>Ceiling decoration full (lampu gantung + kain + bunga)</li>
+                    <li>Fog machine dan bubble effect saat grand entrance</li>
+                    <li>Neon sign custom nama pengantin</li>
+                    <li>Gratis dekorasi akad/siraman tambahan</li>
+                    <li>Konsultasi konsep & mockup desain visual</li>
+                </ul>
+
+                <div class="alert alert-light border-start border-danger ps-3">
+                    <span class="badge bg-danger me-2">FREE</span>
+                    Bouquet pengantin, boutonniere untuk keluarga inti, dan 1 sesi prewedding indoor set.
+                </div>
+
+                <button class="btn btn-warning rounded-pill px-4">
+                    Jangan Ragu, Ayoo Booking Sekarang
+                </button>
+            </div>
+        </div>
+    </div>
+
+
+    <!-- Footer -->
+    <footer class="mt-5">
+        <div class="container">
+            <div class="row mt-3">
+                <div class="col-lg-5">
+                    <h6 class="judul">Our Packages</h6>
+                    <ul class="list-unstyled">
+                        <li><a href="./wedding.html" class="text-decoration-none text-light">Wedding Package</a></li>
+                        <li><a href="./birthday.html" class="text-decoration-none text-light">Birthday Package</a></li>
+                        <li><a href="./bisnisevent.html" class="text-decoration-none text-light">Business Event
+                                Package</a></li>
+                        <li><a href="./promnight.html" class="text-decoration-none text-light">Prom Night Package</a>
+                        </li>
+                        <li><a href="./genderreveal.html" class="text-decoration-none text-light">Gender Reveal
+                                Package</a></li>
+                    </ul>
+                </div>
+                <div class="col-lg-2 d-flex align-items-center">
+                    <img src="./assets/logo_viona.png" alt="">
+                </div>
+                <div class="col-lg-5 d-flex justify-content-end">
+                    <div class="content">
+                        <h6 class="judul">Contack Us</h6>
+                        <ul class="list-unstyled">
+                            <li><a href="#" class="text-decoration-none text-light"><i class="bi bi-whatsapp"></i>
+                                    082281373933</a>
+                            </li>
+                            <li><a href="#" class="text-decoration-none text-light"><i class="bi bi-instagram"></i>
+                                    @viona_decor</a>
+                            </li>
+                            <li><a href="#" class="text-decoration-none text-light"><i class="bi bi-tiktok"></i>
+                                    @vioramoments</a>
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </footer>
