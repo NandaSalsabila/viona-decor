@@ -206,7 +206,7 @@ footer img {
 /* galeri */
 .main-image {
     width: 100%;
-    max-width: 300px;
+    max-height: 450px;
     height: auto;
     object-fit: cover;
     border-radius: 10px;
