@@ -20,6 +20,32 @@ body {
     /* Warna teks untuk paragraf */
 }
 
+.logout {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: #ffffff;
+    color: #000000;
+    width: 100px;
+    height: 50px;
+    border-radius: 40%;
+    box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1);
+    text-decoration: none;
+    transition: transform 0.3s ease;
+    border: 1px solid #e0e0e0;
+}
+
+.logout:hover {
+    transform: scale(1.1);
+    background-color: #f9f9f9;
+    color: #000000;
+}
+
+.logout i {
+    font-size: 18px;
+}
+
+
 /* Navbar */
 .navbar-brand img {
     width: 110px;
